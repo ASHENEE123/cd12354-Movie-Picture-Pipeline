@@ -65,7 +65,7 @@ jobs:
 
       - name: Run tests
       env:
-          FAIL_TEST: "true"
+        FAIL_TEST: "true"
         run: CI=true npm test
 
   build:
